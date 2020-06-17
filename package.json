@@ -1,8 +1,9 @@
 {
     "name": "vuetify-snippets",
+    "publisher": "GaiyaObedMathias",
     "displayName": "vuetify-snippets",
     "description": "Code snippets for rapid and fast development of user interface using vuetifyjs ",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.46.0"
     },
@@ -16,5 +17,9 @@
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
     }
 }
