@@ -9,8 +9,11 @@ You can browse and install vuetify-snippets from within vscode. Bring up the Ext
 ```
 ## Usage
 vbtn + [tab] => <v-btn></v-btn>
-gif here
 ```
+
+## Visuals
+![Alt text](https://github.png)
+
 
 ## Features
 This extension provides snippets with the basic usage syntax for the most used components of vuetifyjs UI Components.
@@ -21,6 +24,14 @@ All you need to do is start typing the component's name all in lowercase and pre
 To be able to enjoy this extension your vscode engine must be         "vscode": "^1.46.0"
 
 
+## Roadmap
+These extension is intended to cover all the basic and advanced components with UI scaffold with quality code intellisense.
+- Pug support
+- Vue-html support
+- Html support
+- Hue-jade support
+
+
 ## Contribution Guide
 This extension is still under development. Please don't get angry if you don't find a given component and feel free to contribute instead. all sorts of contributions are welcome. Here are some guidelines to follow when submitting a contribution(s).
 + If you find a bug or you have a suggestion, feel free to open an issue for it.
@@ -29,6 +40,9 @@ This extension is still under development. Please don't get angry if you don't f
 + Snippet prefix must be the lowercase version of the component's name  without the dash(-) exp: v-btn => vbtn.
 + Snippet body must include only the most used properties available in the vuetifyjs documentation. Component docs is enough in most cases.
 + Snippet description can be the doc description of the component if it is small or just a meaningful part of it if it is long.
+
+## License
+These extension is license under MIT *(c) 2020 Gaiya Mathias Obed*
 
 
 > Again, your contributions of all sorts are most welcome.

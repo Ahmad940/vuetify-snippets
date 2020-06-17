@@ -3,10 +3,29 @@
     "publisher": "GaiyaObedMathias",
     "displayName": "vuetify-snippets",
     "description": "Code snippets for rapid and fast development of user interface using vuetifyjs ",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.46.0"
     },
+    "author": {
+        "name": "'Gaiya M. Obed"
+    },
+    "license": "GPLv3",
+    "homepage": "https://github.png",
+    "bugs": {
+        "url": "https://github.png"
+    },
+    "icon": "https://logi.png",
+    "keywords": [
+        "vuetify",
+        "vuetify-snippets",
+        "vue",
+        "vuetify snippets",
+        "vuejs",
+        "vuetify-snippet",
+        "material design",
+        "intellisense"
+    ],
     "categories": [
         "Snippets"
     ],
