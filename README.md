@@ -1,5 +1,4 @@
 # vuetify-snippets
-
 Vuetifyjs UI components is an awesome project isn't it? But, do you find it difficult or hard to remember the basic syntax for all the components it provides. So, this simple extension is here to help you solving this problem with lot of code intellisense.
 ## Installation
 
@@ -8,8 +7,6 @@ Vuetifyjs UI components is an awesome project isn't it? But, do you find it diff
 You can browse and install vuetify-snippets from within vscode. Bring up the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of vscode or the View: Extensions command
  __(Ctrl+Shift+X)__ for Window users and __⇧⌘X__ for Mac users.
 ```
-
-
 ## Usage
 vbtn + [tab] => <v-btn></v-btn>
 gif here
