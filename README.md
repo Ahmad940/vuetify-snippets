@@ -8,7 +8,26 @@ You can browse and install vuetify-snippets from within vscode. Bring up the Ext
  __(Ctrl+Shift+X)__ for Window users and __⇧⌘X__ for Mac users.
 ```
 ## Usage
-vbtn + [tab] => <v-btn></v-btn>
+vbtn + [tab] =>  <v-btn small elevation="" color=""></v-btn>
+vapp + [tab] => 
+<v-app>
+  <v-navigation-drawer app>
+  </v-navigation-drawer>
+
+  <v-app-bar app>
+  </v-app-bar>
+
+  <v-main>
+
+    <v-container fluid>
+
+      <router-view></router-view>
+    </v-container>
+  </v-main>
+
+  <v-footer app>
+  </v-footer>
+</v-app>
 ```
 
 ## Visuals
