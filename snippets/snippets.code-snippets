@@ -419,5 +419,34 @@
             ""
         ],
         "description": "v-avatar creating avatar"
+    },
+    "v-subheader": {
+        "prefix": "vsubheader",
+        "body": [
+            "  <v-subheader>Subheader</v-subheader>",
+            ""
+        ],
+        "description": "v-subheader for small headings"
+    },
+    "v-sheet ": {
+        "prefix": "vsheet ",
+        "body": [
+            "<v-sheet color=\"$1\">$2</v-sheet>",
+            ""
+        ],
+        "description": "v-sheet for creating sheets"
+    },
+    "v-skeleton": {
+        "prefix": "vskeleton ",
+        "body": [
+            "<v-sheet class=\"$1\" >",
+            "    <v-skeleton-loader",
+            "      class=\"$2\"",
+            "      max-width=\"$3\"",
+            "      type=\"card\"",
+            "    ></v-skeleton-loader>",
+            "  </v-sheet>"
+        ],
+        "description": "v-skeleton for loading animation"
     }
 }
