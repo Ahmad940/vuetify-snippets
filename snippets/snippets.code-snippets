@@ -352,5 +352,72 @@
             ""
         ],
         "description": "v-footer to generate footer"
+    },
+    "v-slider": {
+        "prefix": "vslider",
+        "body": [
+            " <v-slider   ",
+            "          label=\"$1\"",
+            "          value=\"$2\"",
+            "        ></v-slider>"
+        ],
+        "description": "v-slider for creating sliders"
+    },
+    "v-img": {
+        "prefix": "vimg",
+        "body": [
+            "<v-img src=\"$1\"></v-img>",
+            ""
+        ],
+        "description": "v-img for iserting images"
+    },
+    "v-timeline": {
+        "prefix": "vtimeline",
+        "body": [
+            " <v-timeline>",
+            "    <v-timeline-item>timeline item</v-timeline-item>",
+            "    <v-timeline-item class=\"text-right\">timeline item</v-timeline-item>",
+            "    <v-timeline-item>timeline item</v-timeline-item>",
+            "  </v-timeline>"
+        ],
+        "description": "v-timeline for timeline history"
+    },
+    "v-carousel": {
+        "prefix": "vcarousel",
+        "body": [
+            "<v-carousel",
+            "    cycle",
+            "    height=\"$1\"",
+            "    hide-delimiter-background",
+            "    show-arrows-on-hover",
+            "  >",
+            "    <v-carousel-item >",
+            "      <v-sheet",
+            "        height=\"100%\"",
+            "      >",
+            "        <v-row",
+            "          class=\"fill-height\"",
+            "          align=\"center\"",
+            "          justify=\"center\"",
+            "        >",
+            "        </v-row>",
+            "      </v-sheet>",
+            "    </v-carousel-item>",
+            "  </v-carousel>"
+        ],
+        "description": "v-carousel for creating carousal"
+    },
+    "v-avatar": {
+        "prefix": "vavatar",
+        "body": [
+            " <v-avatar>",
+            "      <img",
+            "        src=\"$1\"",
+            "        alt=\"$2\"",
+            "      >",
+            "    </v-avatar>",
+            ""
+        ],
+        "description": "v-avatar creating avatar"
     }
 }
