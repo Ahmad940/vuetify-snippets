@@ -1,1 +1,174 @@
-{}
+{
+    "v-alert": {
+        "prefix": "valert",
+        "body": [
+            "<v-alert type=\"$1\" border=\"$2\" elevation=\"$3\" color=\"$4\">",
+            "$5",
+            "</v-alert>",
+            ""
+        ],
+        "description": "v-alert is a component for creating alert"
+    },
+    "v-app": {
+        "prefix": "vapp",
+        "body": [
+            "",
+            "<v-app>",
+            "  <v-navigation-drawer app>",
+            "  </v-navigation-drawer>",
+            "",
+            "  <v-app-bar app>",
+            "  </v-app-bar>",
+            "",
+            "  <v-main>",
+            "",
+            "    <v-container fluid>",
+            "",
+            "      <router-view></router-view>",
+            "    </v-container>",
+            "  </v-main>",
+            "",
+            "  <v-footer app>",
+            "  </v-footer>",
+            "</v-app>"
+        ],
+        "description": "vapp is use to generate page scafolding"
+    },
+    "v-app-bar": {
+        "prefix": "vappbar",
+        "body": [
+            " <v-app-bar color=\"$1\" dense dark>",
+            "      <v-app-bar-nav-icon></v-app-bar-nav-icon>",
+            "      <v-toolbar-title>$2</v-toolbar-title>",
+            "      <v-spacer></v-spacer>",
+            "      <v-btn icon>",
+            "        <v-icon>$3</v-icon>",
+            "      </v-btn>",
+            "      <v-btn icon>",
+            "        <v-icon>$4</v-icon>",
+            "      </v-btn>",
+            "    </v-app-bar>"
+        ],
+        "description": "vappbar is for generating appbar"
+    },
+    "v-btn": {
+        "prefix": "vbtn",
+        "body": [
+            "    <v-btn small elevation=\"$1\" color=\"$2\">$3</v-btn>",
+            ""
+        ],
+        "description": "vbtn to for geneting buttons "
+    },
+    "v-fab": {
+        "prefix": "vfab",
+        "body": [
+            " <v-btn class=\"$1\" fab dark color=\"$2\">",
+            "      <v-icon dark>$3</v-icon>",
+            "    </v-btn>"
+        ],
+        "description": "vfab is for genrating floating action buttton"
+    },
+    "v-card": {
+        "prefix": "vcard",
+        "body": [
+            "<v-card",
+            "    class=\"$1\"",
+            "elevation=\"$2\"",
+            "    max-width=\"$3\"",
+            "  >",
+            "    <v-card-text>",
+            "      <p class=\"$4\">",
+            "       $5",
+            "      </p>",
+            "      <div class=\"text--primary\">",
+            "       $6",
+            "      </div>",
+            "    </v-card-text>",
+            "    <v-card-actions>",
+            "      <v-btn",
+            "        text",
+            "        color=\"$7\"",
+            "      >",
+            "       $8",
+            "      </v-btn>",
+            "    </v-card-actions>",
+            "  </v-card>"
+        ],
+        "description": "vcard to generate card"
+    },
+    "v-chip": {
+        "prefix": "vchip",
+        "body": [
+            " <v-chip",
+            "      class=\"$1\"",
+            "      color=\"$2\"",
+            "    >",
+            "      $3",
+            "    </v-chip>"
+        ],
+        "description": "vchip to generate chips"
+    },
+    "v-tab": {
+        "prefix": "vtab",
+        "body": [
+            "<v-tabs",
+            "    fixed-tabs",
+            "    elevation=\"$1\"",
+            "    background-color=\"$2\"",
+            "    dark",
+            "  >",
+            "    <v-tab>",
+            "      Option",
+            "    </v-tab>",
+            "    <v-tab>",
+            "      Another Selection",
+            "    </v-tab>",
+            "    <v-tab>",
+            "      Items",
+            "    </v-tab>",
+            "    <v-tab>",
+            "      Another Screen",
+            "    </v-tab>",
+            "  </v-tabs>"
+        ],
+        "description": "vtab to generate tabs"
+    },
+    "v-progress-circular": {
+        "prefix": "vprogresscircular",
+        "body": [
+            "<v-progress-circular      ",
+            "      color=\"$1\"",
+            "    ></v-progress-circular>"
+        ],
+        "description": "v-progress-circular to create a circular progress bar"
+    },
+    "v-progress-linear": {
+        "prefix": "vprogresslinear",
+        "body": [
+            "  <v-progress-linear value=\"$1\"></v-progress-linear>",
+            ""
+        ],
+        "description": "v-progress-linear to create linear progressbar"
+    },
+    "v-rating": {
+        "prefix": "vrating",
+        "body": [
+            "   <v-rating",
+            "      v-model=\"rating\"",
+            "      background-color=\"$1\"",
+            "      color=\"$2\"",
+            "    ></v-rating>"
+        ],
+        "description": "v-rating to generate ratings"
+    },
+    "v-pagination": {
+        "prefix": "vpagination",
+        "body": [
+            " <v-pagination",
+            "      v-model=\"page\"",
+            "      :length=\"$1\"",
+            "    ></v-pagination>"
+        ],
+        "description": "v-pagination for pagination"
+    }
+}
