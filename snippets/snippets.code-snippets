@@ -7,7 +7,7 @@
             "</v-alert>",
             ""
         ],
-        "description": "v-alert is a component for creating alert"
+        "description": "v-alert  component is used to convey important information to the user through the use contextual types icons and color."
     },
     "v-app": {
         "prefix": "vapp",
@@ -32,7 +32,7 @@
             "  </v-footer>",
             "</v-app>"
         ],
-        "description": "v-app is use to generate page scafolding"
+        "description": "v-app  component and the app prop on components"
     },
     "v-app-bar": {
         "prefix": "vappbar",
@@ -49,7 +49,7 @@
             "      </v-btn>",
             "    </v-app-bar>"
         ],
-        "description": "v-appbar is for generating appbar"
+        "description": "v-appbarcomponent is pivotal to any graphical user interface (GUI)"
     },
     "v-btn": {
         "prefix": "vbtn",
@@ -57,7 +57,7 @@
             "    <v-btn small elevation=\"$1\" color=\"$2\">$3</v-btn>",
             ""
         ],
-        "description": "v-btn to for geneting buttons "
+        "description": "v-btn  component replaces the standard html button with a material design "
     },
     "v-fab": {
         "prefix": "vfab",
@@ -369,7 +369,7 @@
             "<v-img src=\"$1\"></v-img>",
             ""
         ],
-        "description": "v-img for iserting images"
+        "description": "v-img component is packed with features to support rich media. "
     },
     "v-timeline": {
         "prefix": "vtimeline",
@@ -448,5 +448,71 @@
             "  </v-sheet>"
         ],
         "description": "v-skeleton for loading animation"
+    },
+    "v-divider": {
+        "prefix": "vdivider",
+        "body": [
+            "    <v-divider",
+            "      class=\"$1\"",
+            "    ></v-divider>"
+        ],
+        "description": "v-divider for creating divider"
+    },
+    "v-file-input": {
+        "prefix": "vfileinput",
+        "body": [
+            "<v-file-input accept=\"image/*\" label=\"$1\"></v-file-input>",
+            ""
+        ],
+        "description": "v-file-input for file  upload"
+    },
+    "v-container ": {
+        "prefix": "vcontainer ",
+        "body": [
+            " <v-container class=\"$1\">",
+            "    <v-row>",
+            "      <v-col></v-col>",
+            "    </v-row>",
+            "  </v-container>"
+        ],
+        "description": "v-container for generating basic layout "
+    },
+    "v-window  ": {
+        "prefix": "vwindow",
+        "body": [
+            "  <v-window v-model=\"$1\" reverse>",
+            "      <v-window-item>",
+            "        <v-card",
+            "          color=\"$2\"",
+            "          height=\"$3\"",
+            "        >",
+            "          <v-row",
+            "            class=\"$4\"",
+            "            align=\"center\"",
+            "            justify=\"center\"",
+            "          >",
+            "          </v-row>",
+            "        </v-card>",
+            "      </v-window-item>",
+            "    </v-window>",
+            ""
+        ],
+        "description": "v-window component provides the baseline functionality for transitioning content"
+    },
+    "v-system-bar": {
+        "prefix": "vsystembar",
+        "body": [
+            " <v-system-bar",
+            "          color=\"$1\"        >",
+            "          <v-icon>mdi-gmail</v-icon>",
+            "          <span>10 unread emails</span>",
+            "          <v-spacer></v-spacer>",
+            "          <v-icon>mdi-wifi-strength-4</v-icon>",
+            "          <v-icon>mdi-signal-cellular-outline</v-icon>",
+            "          <v-icon>mdi-battery</v-icon>",
+            "          <span>12:30</span>",
+            "        </v-system-bar>"
+        ],
+        "description": "v-system-bar component can be used for displaying statuses to the user"
     }
 }
