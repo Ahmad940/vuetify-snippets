@@ -129,11 +129,6 @@ vcontainer + [tab] =>  <v-container class="">
 and more of it
 ```
 
-## Visuals
-
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
-
-
 ## Features
 This extension provides snippets with the basic and advanced usage syntax for the most used components of vuetifyjs UI Components.
 All you need to do is start typing the component's name all in lowercase and press tab. (all components logic will follow).
