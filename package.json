@@ -30,7 +30,7 @@
     "contributes": {
         "snippets": [
             {
-                "language": "javascript",
+                "language": "vue",
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
