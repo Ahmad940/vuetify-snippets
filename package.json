@@ -23,8 +23,7 @@
         "vuetify snippets",
         "vuejs",
         "vuetify-snippet",
-        "material design",
-        "intellisense"
+        "material design"
     ],
     "categories": [
         "Snippets"
@@ -39,6 +38,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/gaiyadev/vuetify-snippets.git"
+        "url": "https://github.com/gaiyadev/vuetify-snippets"
     }
 }
