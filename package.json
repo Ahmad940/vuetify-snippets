@@ -3,7 +3,7 @@
     "publisher": "GaiyaObedMathias",
     "displayName": "vuetify-snippets",
     "description": "Code snippets for rapid and fast development of user interface using vuetifyjs ",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "engines": {
         "vscode": "^1.46.0"
     },
@@ -29,6 +29,10 @@
     ],
     "contributes": {
         "snippets": [
+            {
+                "language": "vue-html",
+                "path": "./snippets/snippets.code-snippets"
+            },
             {
                 "language": "javascript",
                 "path": "./snippets/snippets.code-snippets"
